@@ -1,11 +1,8 @@
-
-import { useState } from 'react'
-
+import { useState } from 'react';
 import MovieDetails from './components/MovieDetails.jsx'
-import SeatLayout from './components/SeatLayout.jsx'
-import BookingSummary from './components/BookingSummary.jsx'
-import Confirmation from './components/Confirmation.jsx'
-
+import SeatLayout from './components/seatLayout.jsx'
+import BookingSummary from './components/Bookingsummary.jsx'
+import Confirmation from  './components/confirmation.jsx'
 import './App.css'
 const ticketPrice = 150
 const createSeats = () => {
